@@ -9,6 +9,7 @@ This is the Django backend for the app. The frontend for this app was built with
 
 ## Getting Started:
 To run this app on your local machine, clone this repo then...
+* Create a virtual environment
 * Install requirements by running the following command inside the project folder in your terminal
   * ```pip3 install -r requirements.txt```
 * Add the frontend
