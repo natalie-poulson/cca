@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/django
-
+# Created by https://www.gitignore.io/api/django,python
+recognizion-a609ecd9ea34.json
 ### Django ###
 *.log
 *.pot
@@ -8,24 +8,14 @@ __pycache__/
 local_settings.py
 db.sqlite3
 media
-staticfiles
 
-
+.vscode/
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
-# <django-project-name>/staticfiles/
-
-
-# End of https://www.gitignore.io/api/django
-
-
-
-
-# Created by https://www.gitignore.io/api/python
+couponBank/staticfiles/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
@@ -64,7 +54,6 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
-.nox/
 .coverage
 .coverage.*
 .cache
@@ -76,12 +65,8 @@ coverage.xml
 
 # Translations
 *.mo
-*.pot
 
 # Django stuff:
-*.log
-local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/
@@ -152,4 +137,4 @@ pyvenv.cfg
 pip-selfcheck.json
 
 
-# End of https://www.gitignore.io/api/python
+# End of https://www.gitignore.io/api/django,python
