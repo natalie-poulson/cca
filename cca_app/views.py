@@ -16,13 +16,3 @@ def api (request):
         raise Http404("File does not exist")
 
     return JsonResponse(data)
-
-    # if file_path.exists():
-    #     json_file = open(file_path)
-    #     # Deserialize to a Python Object
-    #     data = json.load(json_file)
-    #     # send a JSON-encoded response
-    #     return JsonResponse(data)
-
-    # else:
-    #     return HttpResponse(status=500)
