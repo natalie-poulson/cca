@@ -1,6 +1,6 @@
 from django.shortcuts import render
 import json
-from django.http import JsonResponse, HttpResponse
+from django.http import JsonResponse
 from pathlib import Path
 from django.http import Http404
 
